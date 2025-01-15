@@ -31,4 +31,4 @@ class Nyeng :
             await self.bot.process_commands(message)
 
         self.bot.run(token)
-        #허재원 테스트
+        #허재원 테스트 븅신
