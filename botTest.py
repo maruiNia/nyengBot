@@ -30,6 +30,4 @@ class Nyeng :
             
             await self.bot.process_commands(message)
 
-        with open(token) as f :
-            content = f.read()
-            self.bot.run(content)
+        self.bot.run(token)
